@@ -1,0 +1,33 @@
+{
+  "name": "vue-form",
+  "description": "A Vue.js project",
+  "version": "1.0.0",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.2.0",
+    "moment": "^2.9.0",
+    "moment-timezone": "^0.4.0",
+    "timezone": "^1.0.6",
+    "vue": "2.1.8",
+    "vuejs-datepicker": "^0.6.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.0.0",
+    "babel-preset-latest": "^6.0.0",
+    "cross-env": "^3.0.0",
+    "css-loader": "^0.26.1",
+    "file-loader": "^0.9.0",
+    "vue-loader": "^10.0.0",
+    "vue-template-compiler": "2.1.8",
+    "vuikit": "^0.6.2",
+    "webpack": "^2.2.0-rc.2",
+    "webpack-dev-server": "^2.2.0-rc.0"
+  }
+}
